@@ -1,6 +1,5 @@
 <?php
 session_start();
-echo 'Welcome ' . $_SESSION["username"]. ' ' . $_SESSION["password"] . ' and '. $_SESSION["email"];
 // if(isset($_SESSION['user_id'])) {
 //     header("Location: index.php");
 // }
